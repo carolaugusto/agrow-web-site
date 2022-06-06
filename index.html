@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link href="http://fonts.googleapis.com/css?family=Bree+Serif&amp;subset=latin-ext" rel="stylesheet">
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+        rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="container">
+            <div class="banner-inicial">
+                <div class="logo">
+                    <h1><a href="index.html"><span>A</span>grow</a></h1>
+                </div>
+                <!-- Menu Hamburguer -->
+                <div class="menu">
+                    <div class="shy-menu">
+                        <a class="shy-menu-hamburger" data-toggle="collapse">
+                            <span class="layer top"></span>
+                            <span class="layer mid"></span>
+                            <span class="layer btm"></span>
+                        </a>
+                        <div class="shy-menu-panel">
+                            <nav class="menu menu--horatio link-effect-8" id="link-effect-8">
+                                <ul class="menu-lista">
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="#servicos">Serviços</a></li>
+                                    <li><a href="#sobre">Sobre Nós</a></li>
+                                    <li><a href="#" onclick="document.getElementById('id01').style.display='block'"
+                                            style="width:auto;">Login</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu Hamburguer -->
+
+                <!-- Model Login -->
+                <div id="id01" class="modal">
+                    <form class="modal-content animate">
+                        <div class="btnfechar">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                title="Fechar">&times;</span>
+                        </div>
+                        <div class="container">
+                            <label><b>Email</b></label>
+                            <input type="text" placeholder="Digite seu email" name="uname" required>
+
+                            <label><b>Senha</b></label>
+                            <input type="password" placeholder="Digite sua senha" name="psw" required>
+
+                            <a href="login.html">
+                                <input type="button" value="Login">
+                            </a>
+                        </div>
+                    </form>
+                </div>
+                <!-- Model Login -->
+                <div class="clearfix"> </div>
+            </div>
+
+            <!-- Banner Info -->
+            <div class="banner_info">
+                <div class="banner_info_grid">
+                    <h3>Seu negócio mais inteligente</h3>
+                    <p>Soluções tecnologicas e inteligentes para um agronégocio mais produtivo, rápido, gerenciado e
+                        automatizado.</p>
+                    <ul>
+                        <li><a href="contato.html" class="banner-contato">Contato</a></li>
+                        <li><a href="cadastro.html" class="banner-cadastro">Cadastre-se</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Banner Info -->
+        </div>
+    </div>
+    <br>
+    <!-- Serviço -->
+    <div class="agrow" id="servicos">
+        <div class="container">
+            <h3 class="titulo">Nossos <span>Serviços</span></h3>
+            <div class="imagens-a">
+                <img src="images/1.png" class="img-responsive" />
+            </div>
+
+            <div class="lista-servico">
+                <div class="col-md-3 lista-servico">
+                    <div class="w3layouts_news_grid">
+                        <img src="images/consulting2.jpg" class="img-responsive" />
+                    </div>
+                    <div class="agileits_w3layouts_news_grid">
+                        <h4><a href="#">Consultoria</a></h4>
+                        <p>Oferecemos um serviço de consultoria para adotar ou melhorar a
+                            tecnologia no agronegócio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 lista-servico">
+                <div class="w3layouts_news_grid">
+                    <img src="images/gerenciamento.jpg" alt=" " height="1024" width="630" class="img-responsive" />
+                </div>
+                <div class="agileits_w3layouts_news_grid">
+
+                    <h4><a href="#">Gerenciamento</a></h4>
+                    <p>Vivamus lacinia odio ut euismod eleifend. Cum sociis natoque penatibus et
+                        magnis dis parturient montes.</p>
+                </div>
+            </div>
+            <div class="col-md-3 lista-servico">
+                <div class="w3layouts_news_grid">
+                    <img src="images/training.jpg" alt=" " class="img-responsive" />
+                </div>
+                <div class="agileits_w3layouts_news_grid">
+
+                    <h4><a href="#">Treinamentos</a></h4>
+                    <p>Vivamus lacinia odio ut euismod eleifend. Cum sociis natoque penatibus et
+                        magnis dis parturient montes.</p>
+                </div>
+            </div>
+            <div class="col-md-3 lista-servico">
+                <div class="w3layouts_news_grid">
+                    <img src="images/donation.jpg" alt=" " class="img-responsive" />
+                </div>
+                <div class="agileits_w3layouts_news_grid">
+
+                    <h4><a href="#">Doações</a></h4>
+                    <p>Vivamus lacinia odio ut euismod eleifend. Cum sociis natoque penatibus et
+                        magnis dis parturient montes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Serviço -->
+    <br>
+
+    <!-- Sobre Nós -->
+    <div class="agrow" id="sobre">
+        <div class="container">
+            <h3 class="titulo"><span>Sobre</span> Nós</h3>
+            <div class="imagens-a">
+                <img src="images/1.png" class="img-responsive" />
+            </div>
+            <div class="lista-servico">
+                <div class="col-md-7 w3_agile_about_grid_left">
+                    <h3>Agrow, uma empresa que busca constantemente as melhores soluções para o seu négocio.</h3>
+                    <p>Somos uma empresa focada em melhorar e auxiliar o agronegócio do Brasil. Para isso, oferecemos
+                        sistemas inteligentes de gerencimaento, que utilizam IoT, drones, robôs, Inteligência
+                        Artificial, entre outros.</p>
+                    <br>
+                    <p>Temos em mente que todo mundo precisa de ajudar hoje em dia. Possuimos um serviço de doações,
+                        onde voluntários retiram esses produtos e doam para comunidades rurais carentes </p>
+                </div>
+                <div class="col-md-5 w3_agile_about_grid_right">
+                    <img src="images/4.jpg" class="img-responsive" />
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sobre Nós -->
+    <br>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="col-md-4 footer_grid">
+                <div class="agileits_w3layouts_footer_logo">
+                    <h2><a href="index.html"><span>A</span>grow</a></h2>
+                </div>
+            </div>
+            <div class="col-md-4 footer_grid">
+                <h3>Informações de Contato</h3>
+                <h4>Telefone </h4><span>
+                    <i class="fa fa-whatsapp" aria-hidden="true" style='font-size:24px;color:#a4dd25'>11
+                        98170-0028</i>
+                </span>
+                <p>Avenida Lins de Vasconcelos, 1222</span></p>
+
+            </div>
+            <div class="col-md-4 footer_grid">
+                <div class="social-footer-icons">
+                    <ul class="agileits_social_list">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"
+                                    style='font-size:24px;color:#a4dd25'></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"
+                                    style='font-size:24px;color:#a4dd25'></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"
+                                    style='font-size:24px;color:#a4dd25'></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"
+                                    style='font-size:24px;color:#a4dd25'></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+
+
+    <script>
+        var modal = document.getElementById('id01');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        $(function () {
+            initDropDowns($("div.shy-menu"));
+        });
+
+        function initDropDowns(allMenus) {
+            allMenus.children(".shy-menu-hamburger").on("click", function () {
+
+                var thisTrigger = jQuery(this),
+                    thisMenu = thisTrigger.parent(),
+                    thisPanel = thisTrigger.next();
+
+                if (thisMenu.hasClass("is-open")) {
+
+                    thisMenu.removeClass("is-open");
+                } else {
+
+                    allMenus.removeClass("is-open");
+                    thisMenu.addClass("is-open");
+                    thisPanel.on("click", function (e) {
+                        e.stopPropagation();
+                    });
+                }
+                return false;
+            });
+        }
+    </script>
+</body>
+
+</html>
